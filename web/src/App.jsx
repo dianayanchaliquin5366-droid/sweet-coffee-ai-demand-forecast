@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 
 import Layout from "./components/layout/Layout";
 
-import Landing from "./pages/Landing";
 import Dashboard from "./pages/Dashboard";
 import Forecast from "./pages/Forecast";
 import Finance from "./pages/Finance";
@@ -11,10 +10,15 @@ import Settings from "./pages/Settings";
 function App() {
   return (
     <Routes>
-      {/* Landing sin Navbar ni Sidebar */}
-      <Route path="/" element={<Landing />} />
+      <Route
+        path="/"
+        element={
+          <Layout>
+            <Dashboard />
+          </Layout>
+        }
+      />
 
-      {/* Páginas internas con Layout */}
       <Route
         path="/dashboard"
         element={
