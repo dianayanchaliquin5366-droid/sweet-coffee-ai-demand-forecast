@@ -1,0 +1,6 @@
+﻿fecha;producto;categoria;unidades_vendidas;precio_unitario;ingresos;demanda_real;demanda_predicha;temporada
+1/1/2026;Cappuccino;Bebida caliente;35;2.50;87.50;35;38;Alta
+2/1/2026;Latte;Bebida caliente;28;3.00;84.00;28;30;Media
+3/1/2026;Espresso;Bebida caliente;42;2.00;84.00;42;40;Alta
+4/1/2026;Americano;Bebida caliente;25;2.20;55.00;25;27;Baja
+5/1/2026;Mocha;Bebida especial;31;3.50;108.50;31;33;Media
